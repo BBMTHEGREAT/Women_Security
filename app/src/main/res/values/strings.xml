@@ -20,4 +20,5 @@
     <string name="title_activity_features">features</string>
     <string name="title_activity_shortcut">shortcut</string>
     <string name="title_activity_entry_page">entry_pag</string>
+    <string name="title_activity_signup">signup</string>
 </resources>

@@ -41,7 +41,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="150dp"
                 android:id="@+id/imageView"
-                android:src="@drawable/front"
+                android:src="@drawable/logo3"
                 android:layout_marginBottom="30dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="0dp" />
@@ -93,22 +93,21 @@
 
             </android.support.design.widget.TextInputLayout>
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Forgot Password?"
-                android:id="@+id/textView"
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/fp"
                 android:layout_gravity="center_horizontal"
-                android:textColor="#2007ff"
-                android:layout_marginTop="10dp" />
+                android:textColor="#0509fc" />
 
             <Button
-                android:id="@+id/email_sign_in_button"
+                android:id="@+id/signin"
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="0dp"
                 android:text="@string/action_sign_in"
                 android:textStyle="bold"
                 android:layout_gravity="center_horizontal"
@@ -121,15 +120,14 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp" />
 
-            <TextView
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="SIGN UP"
-                android:id="@+id/textView2"
+                android:text="Sign Up"
+                android:id="@+id/signup"
+                style="?android:attr/borderlessButtonStyle"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="30dp"
-                android:textColor="#000000" />
+                android:layout_marginTop="20dp" />
 
         </LinearLayout>
     </ScrollView>
